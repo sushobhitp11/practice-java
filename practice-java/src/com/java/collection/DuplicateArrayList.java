@@ -29,7 +29,6 @@ public class DuplicateArrayList {
         List original = new ArrayList(unique);
 
         System.out.println("Original List: " + l);
-        System.out.println("Duplicate list: " + duplicateList);
-        System.out.println("unique List: " + original);
+        System.out.println("Duplicate list: " + original);
     }
 }

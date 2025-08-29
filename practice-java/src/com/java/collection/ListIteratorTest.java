@@ -1,6 +1,7 @@
 package com.java.collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -15,7 +16,7 @@ public class ListIteratorTest {
         l.add("sushobhit");
         l.add("pandey");
 
-        ListIterator it = l.listIterator();
+        Iterator it = l.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }

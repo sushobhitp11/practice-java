@@ -9,7 +9,7 @@ public class MinimumMaximum {
          int[] i = {10,12,17,55,45,23};
 
         Arrays.stream(i).max().ifPresent(e -> System.out.println("Minimum" + e));
-    }+
+    }
 
 
 
